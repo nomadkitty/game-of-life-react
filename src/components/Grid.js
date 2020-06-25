@@ -1,29 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import styled from "styled-components";
 
-const numRows = 50;
-const numCols = 50;
+const GridDiv = styled.div`
+  display: grid;
+`;
 
-const createEmptyGrid = (numRows, numCols) => {
-  const grid = [];
-  for (let i = 0; i < numRows; i++) {
-    const cols = [];
-    for (let j = 0; j < numCols; j++) {
-      cols.push(0);
-    }
-    grid.push(cols);
-  }
-  return grid;
-};
+const CellDiv = styled.div`
+  width: 10px;
+  height: 10px;
+  border: solid 1px black;
+`;
 
 function Grid(props) {
-  const [grid, setGride] = useState(createEmptyGrid(numRows, numCols));
-  console.log(grid);
+  const { grid, handleCellClick } = props;
+
   return (
-    <div>
-      {grid.map((row, rowIdx) => {
-        row.map();
-      })}
-    </div>
+    <GridDiv style={{ gridTemplateColumns: `repeat(${grid[0].length}, 10px)` }}>
+      {grid.map((rows, rowIdx) =>
+        rows.map((col, colIdx) => (
+          <CellDiv
+            key={`${rowIdx}-${colIdx}`}
+            onClick={() => handleCellClick(rowIdx, colIdx)}
+            style={{
+              backgroundColor: grid[rowIdx][colIdx] ? "green" : undefined,
+            }}
+          />
+        )),
+      )}
+    </GridDiv>
   );
 }
 
