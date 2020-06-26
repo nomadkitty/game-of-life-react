@@ -12,6 +12,7 @@ import styled from "styled-components";
 const GenerationP = styled.p`
   text-align: center;
   font-size: 2rem;
+  margin: 1rem;
 `;
 
 const gridSize = 50;

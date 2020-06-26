@@ -18,10 +18,10 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
   text-align: center;
   height: 5rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 `;
 
 function App() {
