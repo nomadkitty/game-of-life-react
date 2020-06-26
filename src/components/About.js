@@ -84,7 +84,7 @@ const About = () => {
           The Game Controls
         </Button>
         <Modal isOpen={isOpen3}>
-          <ModalHeader toggle={toggle3}>The Rules</ModalHeader>
+          <ModalHeader toggle={toggle3}>The Game Controls</ModalHeader>
           <ModalBody>
             <ul>
               <li>Start/Stop Button: start or stop the game simulation</li>
