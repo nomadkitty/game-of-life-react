@@ -25,7 +25,7 @@ function Grid(props) {
             key={`${rowIdx}-${colIdx}`}
             onClick={() => handleCellClick(rowIdx, colIdx)}
             style={{
-              backgroundColor: grid[rowIdx][colIdx] ? "#87dfd6" : undefined,
+              backgroundColor: grid[rowIdx][colIdx] ? "#fbfd8a" : undefined,
             }}
           />
         )),
