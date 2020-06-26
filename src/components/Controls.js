@@ -7,7 +7,7 @@ const ControlDiv = styled.div`
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
-  background: #43d8c9;
+  background: #6a097d;
 `;
 
 const ButtonDiv = styled.div`

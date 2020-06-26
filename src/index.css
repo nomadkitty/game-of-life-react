@@ -16,3 +16,7 @@ code {
   background-color: transparent !important;
   width: 80%;
 }
+
+.card-body {
+  background-color: #6a097d;
+}

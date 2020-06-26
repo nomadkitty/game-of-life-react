@@ -10,19 +10,16 @@ import tronImg from "./assets/Tron.jpg";
 const AppContainer = styled.div`
   background-image: url(${tronImg});
   background-size: cover;
-  color: yellow;
+  color: #fbfd8a;
 `;
 
 const Container = styled.div`
-  // display: flex;
-  // max-width: 80%;
   margin: 0 auto;
 `;
 
 const Title = styled.h1`
   margin: 0 auto;
   text-align: center;
-  color: #fbfd8a;
   height: 5rem;
   padding-top: 2rem;
 `;
