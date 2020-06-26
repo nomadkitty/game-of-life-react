@@ -20,7 +20,7 @@ const ButtonDiv = styled.div`
 `;
 
 const RangeDiv = styled.div`
-  margin: 0 auto;
+  margin: 1rem auto 0;
 `;
 
 const Controls = (props) => {
