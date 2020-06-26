@@ -7,6 +7,13 @@ import createEmptyGrid from "../utils/createEmptyGrid";
 import { nextGeneration, randomGrid } from "../utils/activeSimulation";
 import { useInterval } from "../utils/useInterval";
 
+import styled from "styled-components";
+
+const GenerationP = styled.p`
+  text-align: center;
+  font-size: 2rem;
+`;
+
 const gridSize = 50;
 
 function Dashboard(props) {
@@ -24,6 +31,7 @@ function Dashboard(props) {
     }
   };
 
+  // control handlers
   const handlePlay = () => {
     setIsActive(!isActive);
   };
@@ -58,9 +66,7 @@ function Dashboard(props) {
   );
 
   return (
-    <>
-      <p>Generation: {generation}</p>
-      <Grid grid={grid} handleCellClick={handleCellClick} />
+    <div>
       <Controls
         isActive={isActive}
         handlePlay={handlePlay}
@@ -70,7 +76,9 @@ function Dashboard(props) {
         handleSpeed={handleSpeed}
         handleNext={handleNext}
       />
-    </>
+      <GenerationP>Generation: {generation}</GenerationP>
+      <Grid grid={grid} handleCellClick={handleCellClick} />
+    </div>
   );
 }
 
