@@ -28,7 +28,7 @@ can live, die or multiply. Depending on the initial conditions, the cells form v
 ## Getting Started
 
 To begin using the App as a client end user, follow the link and click the "Random" button to randomly create "Generation 0". Then press "Start" button to view the change for each generation.
-<img width="600" height="400" src="https://github.com/nomadkitty/game-of-life-react/blob/game/src/assets/game_display.PNG" />
+<img width="720" height="400" src="https://github.com/nomadkitty/game-of-life-react/blob/game/src/assets/game_display.PNG" />
 
 ## Prerequisites
 
