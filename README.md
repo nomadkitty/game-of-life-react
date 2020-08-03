@@ -57,16 +57,12 @@ This project was created using yarn and designed for react client side. Other de
 }
 ```
 
-## Support
-
-There is currently no active support for this app
-
-#### Made with ❤️ by [Jojo Zhang](https://github.com/nomadkitty)
-
 ## Project status
 
-This project was a independent challenge and was completed for a Lambda July 2020. There may be updates to the application periodically
+This project was an independent challenge and was completed on July 2020. There may be updates to the application periodically
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+### Made with ❤️ by [Jojo Zhang](https://github.com/nomadkitty)
