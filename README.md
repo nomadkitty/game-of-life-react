@@ -3,7 +3,7 @@
 **Deployed website**:
 [Game of Life](https://game-of-life-react.vercel.app/)
 
-## Description
+## App Description
 
 The Game of Life React App is a web representation of John Conway's Game of Life. This is not your typical computer game. It is a 'cellular automaton', and was invented by Cambridge mathematician John Conway.
 This game became widely known when it was mentioned in an article
